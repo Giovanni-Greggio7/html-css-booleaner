@@ -4,58 +4,53 @@
     padding: 0px
     }
 
-header {
+    header {
     background-image: url(./img/pattern.png);
     background-color: #4EA0FF;
-    background-size: contain;
-    /* background-size: 39%; */
-    
+    background-size: cover;
+    background-size: 30%; 
 }
 
 #image {
-    width: 250px;
-    height: 250px;
-    padding-top: 100px; 
+    width: 15%;
+    height: 15%;
+    padding-top: 50px;
+     
 }
-    /* position: relative;
-    bottom: 20px;     */
-
-
+    
 h4 {
-    color: rgb(124, 124, 124);
-    /* position: relative;
-    bottom: 20px */
+    color: rgb(124, 124, 124); 
 }
 
 h5 {
     color: rgb(124, 124, 124);
-    /* position: relative;
-    bottom: 40px */
 }
 
-/* .Tim {
-    position: relative;
-    bottom: 40px
-}
-
-#cit1 {
-    position: relative;
-    bottom: 55px
-} */
-
-/* #cit2 {
-    position: relative;
-    bottom: 70px
-}
-
-#chapter {
-    position: relative;
-    bottom: 70px
-} */
 
 span {
     color: #4EA0FF;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+.cell1{
+ width: 25%;
+}
+
+.cell1, .cell2 {
+   background-color: #4EA0FF;
+   color: rgb(255, 255, 255);
+}
+
+.azure {
+    background-color: #B1E5F2
+}
+
+
+
+
 
 
 
