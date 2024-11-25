@@ -1,32 +1,39 @@
-#header {
+.remove{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+    }
+
+header {
     background-image: url(./img/pattern.png);
     background-color: #4EA0FF;
     background-size: contain;
-    background-size: 39%;
-    height: 150px;
+    /* background-size: 39%; */
     
 }
 
 #image {
     width: 250px;
     height: 250px;
-    position: relative;
-    bottom: 20px;    
+    padding-top: 100px; 
 }
+    /* position: relative;
+    bottom: 20px;     */
 
-#author {
+
+h4 {
     color: rgb(124, 124, 124);
-    position: relative;
-    bottom: 20px
+    /* position: relative;
+    bottom: 20px */
 }
 
-#date {
+h5 {
     color: rgb(124, 124, 124);
-    position: relative;
-    bottom: 40px
+    /* position: relative;
+    bottom: 40px */
 }
 
-.Tim {
+/* .Tim {
     position: relative;
     bottom: 40px
 }
@@ -34,9 +41,9 @@
 #cit1 {
     position: relative;
     bottom: 55px
-}
+} */
 
-#cit2 {
+/* #cit2 {
     position: relative;
     bottom: 70px
 }
@@ -44,5 +51,11 @@
 #chapter {
     position: relative;
     bottom: 70px
+} */
+
+span {
+    color: #4EA0FF;
 }
+
+
 
