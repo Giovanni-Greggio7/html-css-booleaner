@@ -1,0 +1,33 @@
+#header {
+    background-image: url(./img/pattern.png);
+    background-color: #4EA0FF;
+    background-size: contain;
+    background-size: 39%;
+    height: 150px;
+    
+}
+
+#image {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    bottom: 20px;    
+}
+
+#author {
+    color: rgb(124, 124, 124);
+    position: relative;
+    bottom: 20px
+}
+
+#date {
+    color: rgb(124, 124, 124);
+    position: relative;
+    bottom: 40px
+}
+
+.Tim {
+    position: relative;
+    bottom: 40px
+}
+
